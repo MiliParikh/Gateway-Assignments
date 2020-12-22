@@ -1,0 +1,5 @@
+2020-12-22 14:59:21.1740 INFO Entering the Home Controller. Starting Login.
+2020-12-22 14:59:21.3449 ERROR Exception occured.Invalid value for key 'attachdbfilename'.
+2020-12-22 14:59:34.6820 INFO Entering the Home Controller. Starting Login.
+2020-12-22 14:59:34.7109 ERROR Exception occured.Invalid value for key 'attachdbfilename'.
+2020-12-22 15:00:15.7347 INFO Entering the Home Controller. Starting Registration

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="row justify-content-md-start">
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                Welcome
+            </div>
+            <div class="card-body">
+                @if (Session["FullName"] != null)
+                {
+                    <p>Name: @Session["FullName"].ToString()</p>
+                    <p>Email: @Session["EmailID"].ToString()</p>
+                    <p>Email: @Session["PhoneNumber"].ToString()</p>
+                    <p>Email: @Session["Age"].ToString()</p>
+                    <p>Email: @Session["DateOfBirth"].ToString()</p>
+                    <p>Email: @Session["Image"].ToString()</p>
+
+                    <a href="@Url.Action("Logout","Home")" class="btn btn-warning">Logout</a>
+                }
+            </div>
+        </div>
+
+    </div>
+</div>
+
